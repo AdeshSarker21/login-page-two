@@ -1,0 +1,104 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .mainBodyArea {
+        padding-left: 0%;
+    }
+
+    .loginSelectOptionUl .loginSelectOptionList .loginSelectOptionLink {
+        padding: 17px 17px;
+    }
+
+    .loginFormGropu .accoutnNotice {
+        font-size: 18px;
+    }
+
+    .mainLogoArea {
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+      .startMainLoginForm {
+        padding-right: 0%;
+    }
+}
+
+@media all and (max-width:991px) {
+    .mainBodyArea {
+        padding-left: 0%;
+    }
+
+    .mainBodyImageArea {
+        display: none;
+    }
+      .startMainLoginForm {
+        padding-right: 0%;
+    }
+}
+
+@media all and (max-width:767px) {
+    .loginSelectOptionUl .loginSelectOptionList .loginSelectOptionLink {
+        padding: 17px 38px;
+    }
+}
+
+@media all and (max-width:577px) {
+    .loginSelectOptionUl .loginSelectOptionList .loginSelectOptionLink {
+        padding: 17px 15px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .loginSelectOptionUl {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .loginSelectOptionUl .loginSelectOptionList {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .loginSelectOptionUl .loginSelectOptionList .loginSelectOptionLink {
+        padding: 17px 15px;
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .loginFormGropu .formLabelText {
+        font-size: 18px;
+    }
+    .flexBoxTwo{
+    display: flex;
+    justify-content: unset;
+    align-items: unset;
+        flex-direction: column;
+}
+.firstName{
+    flex-basis: 100%;
+}
+.lastName{
+     flex-basis: 100%;
+}
+}
+
+@media all and (max-width:400px) {
+    .loginFormGropu .accoutnNotice {
+        font-size: 16px;
+    }
+
+    .loginFormGropu .formInputSubmit {
+        margin: 30px 0px 24px;
+    }
+}
+
+@media all and (max-width:350px) {
+    .formLabelRememberMe {
+        font-size: 15px;
+    }
+
+    .forgotPasswordArea .forgotPassword {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,250 @@
+/*============
+font-family: 'Poppins', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*====================================Start Main Body========================================*/
+.mainBodyArea {
+    padding-left: 5%;
+}
+
+/*------------------------------------------Start Login Page Css------------------------------------------*/
+.loginMainPageArea {}
+
+.mainLoginArea {}
+
+.mainLogoArea {
+    margin-top: 74px;
+    margin-bottom: 38px;
+}
+
+.mainLogoArea .mainLogo {
+    width: 227px;
+    height: 82px;
+}
+
+.loginSelectOptionAra {
+    margin-bottom: 37px;
+}
+
+.loginSelectOptionUl {
+    background: #F0F0F4;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginSelectOptionUl .loginSelectOptionList {}
+
+.loginSelectOptionUl .loginSelectOptionList .loginSelectOptionLink {
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+    padding: 17px 35px;
+}
+
+.loginSelectOptionUl .loginSelectOptionList .loginSelectOptionLink:hover {
+    color: #FFFFFF;
+    background: #49C0FF;
+    border-radius: 6px;
+}
+
+.loginSelectOptionUl .loginSelectOptionList .loginSelectOptionLink:focus {
+    color: #FFFFFF;
+    background: #49C0FF;
+    border-radius: 6px;
+}
+
+.loginOptoinsDetails {
+    padding-bottom: 30px;
+}
+
+.loginOptoinsDetails .loginOptoinsDetailsHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    color: #000000;
+}
+
+.loginOptoinsDetails .loginOptoinsDetailsText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.07em;
+    color: #404040;
+}
+
+
+.startMainLoginForm {
+	padding-right: 18%;
+}
+.loginFormGropu {
+    margin-bottom: 15px;
+}
+
+.loginFormGropu .formLabelText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+.loginFormGropu .formInputText {
+    border: none;
+    background: none;
+    background: #FFFFFF;
+    border: 0.2px solid #797979;
+    border-radius: 8px;
+    padding: 18px 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    color: #000000;
+}
+
+.loginFormGropu .formInputText::placeholder {
+    color: rgba(68, 68, 68, 0.5);
+    opacity: 1;
+}
+
+.loginFormGropu .formInputText:-ms-input-placeholder {
+    color: rgba(68, 68, 68, 0.5);
+}
+
+.loginFormGropu .formInputText::-ms-input-placeholder {
+    color: rgba(68, 68, 68, 0.5);
+}
+
+.flexBoxOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkboxArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.formInputCheckbox {
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.formLabelRememberMe {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+}
+
+.forgotPasswordArea {}
+
+.forgotPasswordArea .forgotPassword {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+}
+
+.loginFormGropu .formInputSubmit {
+    border: none;
+    background: none;
+    background: #49C0FF;
+    border-radius: 7.2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+    padding: 15px;
+    color: #FFFFFF;
+    width: 100%;
+    margin: 67px 0px 24px;
+}
+
+.loginFormGropu .accoutnNotice {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #444444;
+}
+
+.accoutnNotice .signupButton {
+    color: #49C0FF;
+}
+
+/*------------------------------------------End Login Page Css------------------------------------------*/
+/*------------------------------------------Start Body Image Css------------------------------------------*/
+.mainBodyImageArea {
+    background: url(../images/bodyImage/bodyImage2.png)no-repeat scroll 0 0 / 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBodyImageArea .bodyImages {}
+
+/*------------------------------------------End Body Image Css------------------------------------------*/
+/*====================================End Main Body========================================*/
